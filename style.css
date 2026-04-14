@@ -1,0 +1,123 @@
+body {
+    background-color: #f5f5f5; /* page background color */
+    font-family: Tahoma, sans-serif; /* font style based sa original html file */
+    margin: 0;
+    padding: 40px; /* space around the content */
+    color: #333333; /* default text color shade ng black */
+}
+
+/* ===== Headings ===== */
+h1 {
+    text-align: center; /* center the heading text */
+    color: #222222; /* heading text color */
+    font-weight: bold; /* make heading bold */
+    margin-bottom: 10px; /* space below heading */
+}
+
+/* ===== Red line under headings ===== */
+hr {
+    border: none; /* remove default border */
+}
+
+/* ===== Shared container for both html and php ===== */
+.page-container {
+    max-width: 700px;
+    margin: auto; /* center the container */
+}
+
+/* ===== Card style for form and results ===== */
+.form-container,
+.result-box {
+    background: #ffffff; /* white background */
+    padding: 30px; /* space inside the box */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 4px 12px #cccccc; /* shadow */
+}
+
+/* Hover effect for cards */
+.form-container:hover,
+.result-box:hover {
+    box-shadow: 0 6px 16px #bbbbbb; /* deeper shadow on hover */
+}
+
+/* ===== Table styling ===== */
+table {
+    width: 100%; /* table fills the container */
+    margin-bottom: 20px; /* space below table */
+    border-collapse: collapse; /* cleaner look */
+}
+
+td {
+    padding: 10px; /* space inside cells */
+    font-size: 14px; /* text size */
+    color: #444444; /* text color */
+}
+
+/* Highlight table rows when hovered */
+table tr:hover {
+    background-color: #f0f0f0; /* light gray highlight */
+}
+
+/* ===== Inputs ===== */
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px; /* space inside input */
+    border: 1px solid #cccccc; /* border color */
+    border-radius: 6px; /* rounded corners */
+    font-size: 14px; /* text size */
+}
+
+/* Focus effect for inputs */
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: #0066cc; /* blue border when active */
+    outline: none; /* remove default outline */
+}
+
+/* Radio buttons spacing */
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+/* ===== Buttons ===== */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #0066cc; /* blue button */
+    color: #ffffff; /* white text */
+    border: none; /* remove border */
+    padding: 12px 20px; /* button size */
+    margin: 10px 5px 0 0; /* spacing around buttons */
+    border-radius: 6px; /* rounded corners */
+    font-weight: bold; /* bold text */
+    font-size: 14px; /* text size */
+}
+
+/* Hover effect for buttons */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #004c99; /* darker blue on hover */
+}
+
+/* ===== Result text ===== */
+.result-box b {
+    color: #0066cc; /* highlight important values in blue */
+    font-weight: bold;
+}
+
+.result-box p {
+    font-size: 15px; /* text size */
+    margin: 10px 0; /* spacing between lines */
+    color: #444444; /* text color */
+}
+
+/* Date display (top right corner) */
+p[align="right"] {
+    font-size: 13px; /* smaller text */
+    color: #666666; /* gray color */
+    margin: 0; /* no extra spacing */
+}
+
+/* Made by Valdecantos, Lantis D. and Indolos, Dustin Kwerr A. BSIT - 23 */
